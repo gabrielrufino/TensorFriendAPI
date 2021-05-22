@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "intentions",
   "info": {
-    "name": "Intentions",
+    "name": "Intention",
     "description": ""
   },
   "options": {
