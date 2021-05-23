@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "code": {
-      "type": "string"
+      "type": "uid",
+      "required": true
     },
     "alternatives": {
       "type": "json"
