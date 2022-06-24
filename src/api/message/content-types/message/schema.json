@@ -11,10 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "texts": {
-      "type": "json",
-      "required": true
-    },
     "subject": {
       "type": "enumeration",
       "enum": [
@@ -22,6 +18,10 @@
         "other"
       ],
       "default": "other",
+      "required": true
+    },
+    "texts": {
+      "type": "json",
       "required": true
     }
   }
