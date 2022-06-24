@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "Message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texts": {
+      "type": "json",
+      "required": true
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "greetings",
+        "other"
+      ],
+      "default": "other",
+      "required": true
+    }
+  }
+}
